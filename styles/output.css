@@ -605,6 +605,18 @@ video {
   background-color: hsl(150 100% 66% / var(--tw-bg-opacity));
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -653,9 +665,9 @@ video {
   cursor: pointer;
 }
 
-.hover\:bg-custom-LightCyan:hover {
+.hover\:bg-custom-NeonGreen:hover {
   --tw-bg-opacity: 1;
-  background-color: hsl(193 38% 86% / var(--tw-bg-opacity));
+  background-color: hsl(150 100% 66% / var(--tw-bg-opacity));
 }
 
 @media (min-width: 768px) {

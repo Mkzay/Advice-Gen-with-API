@@ -10,7 +10,7 @@ adviceButton.addEventListener('click', () => {
       const adviceId = data.slip.id;
 
       adviceNo.textContent = `${adviceId}`;
-      adviceQuote.textContent = advice;
+      adviceQuote.textContent = `"${advice}"`;
     })
     .catch(error => {
       console.error('Error fetching advice:', error);
